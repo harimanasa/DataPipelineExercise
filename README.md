@@ -2,6 +2,16 @@
 
 This project simulates a real-time software observability pipeline to monitor microservice performance. It demonstrates how platform engineering or SRE teams can track service health using metrics like latency and error rates.
 
+This repository was created as part of a **guest lecture by Manasa Hari** for Master's students exploring practical data engineering and observability use cases. The project simulates a real-time software observability pipeline to monitor microservice performance. It demonstrates how platform engineering or SRE teams can track service health using metrics like latency and error rates.
+
+## Features
+- Simulates real-time logs from microservices
+- Calculates per-service metrics:
+  - Average latency
+  - Error rate (% of failed requests)
+  - Request count
+- Provides both CLI and dashboard-based views (Streamlit)
+
 ## Features
 - Simulates real-time logs from microservices
 - Calculates per-service metrics:
